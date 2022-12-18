@@ -1,0 +1,147 @@
+.App {
+  /* text-align: center; */
+  /* display: flex; */
+  min-height: 100vh;
+  /* align-items: center;
+  justify-content: center; */
+  color: white;
+
+  background-color: #5e0a84;
+}
+
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 26rem;
+  display: flex;
+
+  justify-content: center;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 26rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container,
+  .register-container {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 40rem;
+
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+  }
+}
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+.main-login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  color: #8a34b3;
+  cursor: pointer;
+  transition: background 0.5sec;
+  width: 100px;
+}
+.lnk-button {
+  background: none;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  color: black;
+}
+.cursor-pointer:hover {
+  color: black;
+}
+.title.li {
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+.Navbar-container {
+  margin-left: 0;
+}
+/* .title{
+  background-color: aliceblue;
+  width: 120rem;
+  display: flex;
+  flex-direction: row;
+  
+} */
+.user-title-nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.nav-items {
+  color: black;
+}
+
+.deznav{
+  background-color: #8a34b3;
+}
+.SIGNUPAP{
+  margin-top: 20px;
+}
+
+.containerhome{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}

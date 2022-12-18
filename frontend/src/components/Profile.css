@@ -1,0 +1,16 @@
+.denied{
+    width: 5%;
+    background-color:red;
+    }
+    .pending{
+    width: 30%;
+    background-color:yellow;
+    }
+    .approved{
+    width: 60%;
+    background-color:blue;
+    }
+    .allotted{
+    width: 100%;
+    background-color:green;
+    }
